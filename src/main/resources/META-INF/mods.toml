@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="sovereigncore"
+version="1.1.0-forge-1.20.1"
+displayName="SovereignCore"
+authors="SovereignCore Team"
+displayTest="MATCH_VERSION"
+description='''
+A server-management mod for Minecraft Java 1.20.1 Forge with an in-game UI for teleportation,
+homes, warps, rank and permission management, player moderation, and player utilities.
+Install on both the server and every client.
+'''
+
+[[dependencies.sovereigncore]]
+modId="forge"
+mandatory=true
+versionRange="[47.2,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.sovereigncore]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
